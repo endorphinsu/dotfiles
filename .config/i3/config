@@ -23,6 +23,8 @@ exec_always --no-startup-id ~/.config/scripts/functions.sh rest &
 
 exec --no-startup-id ~/.config/scripts/functions.sh rice skip &
 
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
 exec --no-startup-id setxkbmap "us,lt" &
 
 exec --no-startup-id alternating_layouts.py &
