@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+menu='rofi -theme powermenu -dmenu'
+
+backupdir=~/.config/backup
+screendir=~/Pictures/Screenshots
+codedir=~/Documents
+walldir=~/Pictures/Wallpapers
+tempdir=~/.config/templates
+
+resfile=~/.config/resources
+wall=WhiteMountains.jpg
+
+term=kitty
+font="FantasqueSansMono Nerd Font Mono"
