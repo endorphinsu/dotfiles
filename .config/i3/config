@@ -119,7 +119,7 @@ for_window [class=".exe*"] move to workspace $ws1
 for_window [class="^Minecraft"] move to workspace $ws1
 for_window [title="McOsu"] move to workspace $ws1
 
-# kitty
+# Terminals
 for_window [class="Alacritty"] move to workspace $ws2
 for_window [class="cool-retro-term"] move to workspace $ws2
 for_window [class="deepin-terminal"] move to workspace $ws2
